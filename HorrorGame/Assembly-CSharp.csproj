@@ -50,6 +50,7 @@
      <Folder Include="Assets\Audios" />
      <Folder Include="Assets\Animations" />
      <Folder Include="Assets\Sprites\UI" />
+     <Folder Include="Assets\Animations\Home" />
      <Folder Include="Assets\Images" />
      <Folder Include="Assets\Animations\Park\BG" />
      <Folder Include="Assets\Fonts" />
