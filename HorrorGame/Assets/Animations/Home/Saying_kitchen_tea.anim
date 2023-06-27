@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LookRightRight_2
+  m_Name: Saying_kitchen_tea
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,16 +20,14 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 670e7f1ca95a8bc42a695d827e559e63, type: 3}
-    - time: 0.5
-      value: {fileID: 21300000, guid: 1ee0b93fe0b25484aaa81e969ecc7411, type: 3}
-    - time: 1
-      value: {fileID: 21300000, guid: 8b9b629e67d14c540bec30ec29af0d0f, type: 3}
+      value: {fileID: 21300000, guid: 61a65739e8caf4c4e9d139222fab1f49, type: 3}
+    - time: 0.2
+      value: {fileID: 21300000, guid: a530ffa613e0d794d9123ba862f6d0af, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 2
+  m_SampleRate: 5
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -44,15 +42,14 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 670e7f1ca95a8bc42a695d827e559e63, type: 3}
-    - {fileID: 21300000, guid: 1ee0b93fe0b25484aaa81e969ecc7411, type: 3}
-    - {fileID: 21300000, guid: 8b9b629e67d14c540bec30ec29af0d0f, type: 3}
+    - {fileID: 21300000, guid: 61a65739e8caf4c4e9d139222fab1f49, type: 3}
+    - {fileID: 21300000, guid: a530ffa613e0d794d9123ba862f6d0af, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.5
+    m_StopTime: 0.4
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
