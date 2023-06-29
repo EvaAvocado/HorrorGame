@@ -11973,7 +11973,6 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -12047,102 +12046,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &519420033
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &522996864
 GameObject:
   m_ObjectHideFlags: 0
@@ -15242,9 +15145,6 @@ GameObject:
   - component: {fileID: 945778150}
   - component: {fileID: 945778149}
   - component: {fileID: 945778148}
-  - component: {fileID: 945778175}
-  - component: {fileID: 945778174}
-  - component: {fileID: 945778173}
   - component: {fileID: 945778188}
   - component: {fileID: 945778187}
   - component: {fileID: 945778186}
@@ -15258,7 +15158,6 @@ GameObject:
   - component: {fileID: 945778178}
   - component: {fileID: 945778177}
   - component: {fileID: 945778189}
-  - component: {fileID: 945778190}
   - component: {fileID: 945778221}
   - component: {fileID: 945778220}
   - component: {fileID: 945778219}
@@ -15294,6 +15193,51 @@ GameObject:
   - component: {fileID: 945778223}
   - component: {fileID: 945778225}
   - component: {fileID: 945778224}
+  - component: {fileID: 945778246}
+  - component: {fileID: 945778245}
+  - component: {fileID: 945778244}
+  - component: {fileID: 945778243}
+  - component: {fileID: 945778242}
+  - component: {fileID: 945778241}
+  - component: {fileID: 945778240}
+  - component: {fileID: 945778239}
+  - component: {fileID: 945778238}
+  - component: {fileID: 945778237}
+  - component: {fileID: 945778236}
+  - component: {fileID: 945778235}
+  - component: {fileID: 945778234}
+  - component: {fileID: 945778233}
+  - component: {fileID: 945778232}
+  - component: {fileID: 945778231}
+  - component: {fileID: 945778230}
+  - component: {fileID: 945778229}
+  - component: {fileID: 945778228}
+  - component: {fileID: 945778227}
+  - component: {fileID: 945778226}
+  - component: {fileID: 945778247}
+  - component: {fileID: 945778248}
+  - component: {fileID: 945778251}
+  - component: {fileID: 945778250}
+  - component: {fileID: 945778252}
+  - component: {fileID: 945778271}
+  - component: {fileID: 945778270}
+  - component: {fileID: 945778269}
+  - component: {fileID: 945778268}
+  - component: {fileID: 945778267}
+  - component: {fileID: 945778266}
+  - component: {fileID: 945778265}
+  - component: {fileID: 945778264}
+  - component: {fileID: 945778263}
+  - component: {fileID: 945778262}
+  - component: {fileID: 945778261}
+  - component: {fileID: 945778260}
+  - component: {fileID: 945778259}
+  - component: {fileID: 945778258}
+  - component: {fileID: 945778257}
+  - component: {fileID: 945778256}
+  - component: {fileID: 945778255}
+  - component: {fileID: 945778254}
+  - component: {fileID: 945778253}
   m_Layer: 0
   m_Name: Flowchart_HideAndSeek
   m_TagString: Untagged
@@ -15387,7 +15331,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -44.450195
     y: -30.332632
-    width: 103.87756
+    width: 105.000015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15412,21 +15356,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 627.20526, y: -151.12076}
+  scrollPos: {x: 1047.1378, y: 125.67622}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 398.8
-  zoom: 0.48999992
+  zoom: 0.6399998
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 945778198}
-  selectedCommands:
-  - {fileID: 945778193}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 945777888}
   - {fileID: 945777790}
@@ -15856,7 +15798,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -50.080154
     y: 176.60263
-    width: 123.4694
+    width: 127.50002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15893,7 +15835,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 112.201836
     y: 99.2407
-    width: 103.87756
+    width: 106.250015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15930,7 +15872,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -425.31345
     y: 46.753124
-    width: 112.04083
+    width: 117.50002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16135,7 +16077,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -48.51761
     y: 47.076733
-    width: 123.4694
+    width: 126.25002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16475,7 +16417,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 281.371
     y: 13.834961
-    width: 94.08164
+    width: 92.500015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16672,7 +16614,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -736.8641
     y: 39.166576
-    width: 196.9388
+    width: 208.75005
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16718,7 +16660,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -797.24927
     y: 217.635
-    width: 131.63266
+    width: 137.50003
     height: 40
   tint: {r: 0.21960784, g: 0.32156864, b: 1, a: 1}
   useCustomTint: 1
@@ -16864,7 +16806,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -750.8184
     y: 120.562
-    width: 136.53062
+    width: 142.50003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16958,7 +16900,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -245.37149
     y: 188.53795
-    width: 97.34695
+    width: 103.750015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16992,7 +16934,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -420.5856
     y: 171.72472
-    width: 130.00002
+    width: 140.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17029,7 +16971,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -553.14404
     y: 101.95728
-    width: 116.93879
+    width: 125.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17606,7 +17548,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 34.265457
     y: 226.24634
-    width: 107.14287
+    width: 112.500015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17635,7 +17577,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -317.7858
     y: 510.83685
-    width: 107.14287
+    width: 110.000015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17664,7 +17606,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -123.72841
     y: 355.3416
-    width: 103.87756
+    width: 108.750015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17698,7 +17640,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -496.8812
     y: 396.86783
-    width: 97.34695
+    width: 100.000015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17920,7 +17862,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -322.59747
     y: 334.3727
-    width: 118.57144
+    width: 122.50002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18584,7 +18526,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 556.2234
     y: 91.14851
-    width: 149.59186
+    width: 158.75003
     height: 40
   tint: {r: 0.21960784, g: 0.32156864, b: 1, a: 1}
   useCustomTint: 1
@@ -18593,6 +18535,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 945778252}
   - {fileID: 945778002}
   - {fileID: 945778086}
   suppressAllAutoSelections: 0
@@ -19004,7 +18947,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 573.0011
     y: 3.8044891
-    width: 108.77552
+    width: 113.750015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19016,8 +18959,9 @@ MonoBehaviour:
   - {fileID: 945778008}
   - {fileID: 945778007}
   - {fileID: 945778088}
-  - {fileID: 945778036}
   - {fileID: 945778035}
+  - {fileID: 945778036}
+  - {fileID: 945778250}
   - {fileID: 945778004}
   - {fileID: 945778037}
   - {fileID: 945778005}
@@ -19040,7 +18984,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 282.41666
     y: -75.92552
-    width: 82.65307
+    width: 86.250015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19259,7 +19203,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 0.5
+    floatVal: 0.25
   durationOLD: 0
 --- !u!114 &945778036
 MonoBehaviour:
@@ -19487,7 +19431,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 605.71204
     y: 174.62598
-    width: 121.83675
+    width: 123.75002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19584,7 +19528,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 593.1947
     y: 247.37509
-    width: 131.63266
+    width: 136.25003
     height: 40
   tint: {r: 0.21960784, g: 0.32156864, b: 1, a: 1}
   useCustomTint: 1
@@ -19759,7 +19703,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 418.72635
     y: 556.5314
-    width: 133.26532
+    width: 140.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19794,7 +19738,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 411.5393
     y: 395.468
-    width: 107.14287
+    width: 108.750015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19829,7 +19773,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 421.5714
     y: 225.59485
-    width: 97.34695
+    width: 98.750015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20018,7 +19962,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 159.69676
     y: 374.497
-    width: 125.10205
+    width: 128.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20159,7 +20103,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 548.2964
     y: -87.41585
-    width: 151.22452
+    width: 158.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20751,8 +20695,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 612.12317
-    y: 429.34512
-    width: 141.42859
+    y: 427.78262
+    width: 146.25003
     height: 40
   tint: {r: 0.21960784, g: 0.32156864, b: 1, a: 1}
   useCustomTint: 1
@@ -20785,7 +20729,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 607.06
     y: 357.1932
-    width: 131.63266
+    width: 133.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22050,7 +21994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 603.4808
     y: 599.94916
-    width: 167.55104
+    width: 177.50003
     height: 40
   tint: {r: 0.21960784, g: 0.32156864, b: 1, a: 1}
   useCustomTint: 1
@@ -22083,7 +22027,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 614.1302
     y: 507.4446
-    width: 157.75513
+    width: 165.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22683,7 +22627,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -703.8894
     y: 396.51712
-    width: 139.79593
+    width: 145.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22777,7 +22721,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -642.35144
     y: 288.8248
-    width: 211.63268
+    width: 221.25005
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22806,9 +22750,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: -736.58105
     y: 496.5168
-    width: 172.449
+    width: 181.25003
     height: 40
-  tint: {r: 0.22075468, g: 0.3220548, b: 1, a: 1}
+  tint: {r: 0.21960784, g: 0.32156864, b: 1, a: 1}
   useCustomTint: 1
   itemId: 568
   blockName: TheEndCorridorLeftDie
@@ -22942,80 +22886,6 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 1
   durationOLD: 0
---- !u!114 &945778173
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945777705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 589
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 945777987}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &945778174
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945777705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 588
-  indentLevel: 0
-  duration: 1
-  fadeOut: 1
-  targetView: {fileID: 1252214176}
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
-  fadeTweenType: 4
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
---- !u!114 &945778175
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945777705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -373.12036
-    y: 244.594
-    width: 105.51021
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 587
-  blockName: TempStart
-  description: 
-  eventHandler: {fileID: 945778190}
-  commandList:
-  - {fileID: 945778174}
-  - {fileID: 945778173}
-  suppressAllAutoSelections: 0
 --- !u!114 &945778177
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23104,9 +22974,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: -150.99997
     y: 425.099
-    width: 162.65308
+    width: 168.75003
     height: 40
-  tint: {r: 0.19607845, g: 0.2901961, b: 0.90196085, a: 1}
+  tint: {r: 0.21960784, g: 0.32156864, b: 1, a: 1}
   useCustomTint: 1
   itemId: 597
   blockName: TheEndDoorDoorDie
@@ -23303,21 +23173,6 @@ MonoBehaviour:
     floatVal: 8
   targetBlock: {fileID: 945777928}
   durationOLD: 0
---- !u!114 &945778190
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945777705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 945778175}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &945778191
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23477,11 +23332,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -143.53174
-    y: 759.28424
-    width: 151.22452
+    x: -141.8924
+    y: 760.9236
+    width: 158.75003
     height: 40
-  tint: {r: 0.16862746, g: 0.2509804, b: 0.77647066, a: 1}
+  tint: {r: 0.21960784, g: 0.32156864, b: 1, a: 1}
   useCustomTint: 1
   itemId: 630
   blockName: Corridor_toilet_door
@@ -23490,6 +23345,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 945778197}
   - {fileID: 945778196}
+  - {fileID: 945778247}
   - {fileID: 945778195}
   - {fileID: 945778194}
   - {fileID: 945778193}
@@ -23595,7 +23451,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -145.20981
     y: 644.3188
-    width: 165.9184
+    width: 171.25003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23645,7 +23501,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -519.01385
     y: 581.05347
-    width: 131.63266
+    width: 135.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23712,7 +23568,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -123.93181
     y: 493.76663
-    width: 151.22452
+    width: 156.25003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23791,7 +23647,7 @@ MonoBehaviour:
   indentLevel: 0
   text: "\u041F\u0440\u043E\u0439\u0442\u0438 \u043D\u0430 \u043A\u0443\u0445\u043D\u044E"
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 945778246}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -23816,7 +23672,7 @@ MonoBehaviour:
   indentLevel: 0
   text: "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043A\u043E\u043C\u043D\u0430\u0442\u0443"
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 945778251}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -23865,9 +23721,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 128.99565
-    y: 703.5693
-    width: 165.9184
+    x: 137.15892
+    y: 715.8142
+    width: 172.50003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23974,7 +23830,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -335.00583
     y: 584.7335
-    width: 149.59186
+    width: 155.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24146,6 +24002,1049 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &945778226
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 662
+  indentLevel: 0
+  commenterName: "\u041A\u043E\u043D\u0435\u0446: \u0437\u0430\u043A\u043E\u043B\u043E\u043B\u0430
+    \u0434\u0435\u0432\u043E\u0447\u043A\u0443 \u043D\u043E\u0436\u043E\u043C"
+  commentText: 
+--- !u!114 &945778227
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c784b19efbe8424fa879e0d6d883281, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 661
+  indentLevel: 0
+  loadingImage: {fileID: 0}
+--- !u!114 &945778228
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 660
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &945778229
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7026a0b1ea104ec0af471324ee3daea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 659
+  indentLevel: 0
+  _tweenName:
+    stringRef: {fileID: 0}
+    stringVal: Kill
+  tweenNameOLD: 
+--- !u!114 &945778230
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4998e756a5d84f4ab55e075dad751b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 658
+  indentLevel: 0
+  _targetObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 804889678}
+  _tweenName:
+    stringRef: {fileID: 0}
+    stringVal: Kill
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.55
+  easeType: 2
+  loopType: 0
+  stopPreviousTweens: 0
+  waitUntilFinished: 1
+  targetObjectOLD: {fileID: 0}
+  tweenNameOLD: 
+  durationOLD: 0
+  _offset:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 2.2, y: 2.2, z: 0}
+  offsetOLD: {x: 0, y: 0, z: 0}
+--- !u!114 &945778231
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 657
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: b8979e2abff22b244a093f4442de8dc7, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &945778232
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 598f181ee459641a9b0a5849fbc3240c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 656
+  indentLevel: 0
+  _targetObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 804889678}
+  _tweenName:
+    stringRef: {fileID: 0}
+    stringVal: Kill
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.01
+  easeType: 2
+  loopType: 2
+  stopPreviousTweens: 1
+  waitUntilFinished: 0
+  targetObjectOLD: {fileID: 0}
+  tweenNameOLD: 
+  durationOLD: 0
+  _offset:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0.3, y: 0, z: 0}
+  space: 1
+  offsetOLD: {x: 0, y: 0, z: 0}
+--- !u!114 &945778233
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 655
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
+--- !u!114 &945778234
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 654
+  indentLevel: 0
+  animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 804889680}
+  stateName:
+    stringRef: {fileID: 0}
+    stringVal: Toilet_GoKitchen_KillGirl
+  layer:
+    integerRef: {fileID: 0}
+    integerVal: -1
+  time:
+    floatRef: {fileID: 0}
+    floatVal: 0
+--- !u!114 &945778235
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 103.37167
+    y: 989.1504
+    width: 236.25005
+    height: 40
+  tint: {r: 0.21960784, g: 0.32156864, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 653
+  blockName: TheEnd_Corridor_toiletKitchenKill
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 945778234}
+  - {fileID: 945778233}
+  - {fileID: 945778231}
+  - {fileID: 945778248}
+  - {fileID: 945778232}
+  - {fileID: 945778230}
+  - {fileID: 945778229}
+  - {fileID: 945778228}
+  - {fileID: 945778226}
+  - {fileID: 945778227}
+  suppressAllAutoSelections: 0
+--- !u!114 &945778236
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 652
+  indentLevel: 0
+  text: "\u041D\u0430\u0437\u0430\u0434"
+  description: 
+  targetBlock: {fileID: 945778244}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 2063930150}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &945778237
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 651
+  indentLevel: 0
+  text: "\u0412\u0437\u044F\u0442\u044C \u043D\u043E\u0436"
+  description: 
+  targetBlock: {fileID: 945778235}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 2063930150}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &945778238
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 650
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 945778214}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &945778239
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 649
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
+--- !u!114 &945778240
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 648
+  indentLevel: 0
+  animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 804889680}
+  stateName:
+    stringRef: {fileID: 0}
+    stringVal: Toilet_GoKitchen_2
+  layer:
+    integerRef: {fileID: 0}
+    integerVal: -1
+  time:
+    floatRef: {fileID: 0}
+    floatVal: 0
+--- !u!114 &945778241
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 647
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 945778245}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &945778242
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 646
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
+--- !u!114 &945778243
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 645
+  indentLevel: 0
+  animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 804889680}
+  stateName:
+    stringRef: {fileID: 0}
+    stringVal: Toilet_GoKitchen
+  layer:
+    integerRef: {fileID: 0}
+    integerVal: -1
+  time:
+    floatRef: {fileID: 0}
+    floatVal: 0
+--- !u!114 &945778244
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 221.40488
+    y: 820.1422
+    width: 201.25005
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 644
+  blockName: Corridor_toiletBackKitchen
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 945778240}
+  - {fileID: 945778239}
+  - {fileID: 945778238}
+  suppressAllAutoSelections: 0
+--- !u!114 &945778245
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 111.815674
+    y: 900.9642
+    width: 216.25005
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 643
+  blockName: Corridor_toiletKitchenChoose
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 945778237}
+  - {fileID: 945778236}
+  suppressAllAutoSelections: 0
+--- !u!114 &945778246
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 27.197868
+    y: 818.9984
+    width: 187.50005
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 642
+  blockName: Corridor_toiletGoKitchen
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 945778243}
+  - {fileID: 945778242}
+  - {fileID: 945778241}
+  suppressAllAutoSelections: 0
+--- !u!114 &945778247
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 663
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: cce4a466623965f45bc15317ee47df22, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &945778248
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 664
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.5
+  durationOLD: 0
+--- !u!114 &945778250
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 667
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.25
+  durationOLD: 0
+--- !u!114 &945778251
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 374.0547
+    y: 653.5035
+    width: 181.25003
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 666
+  blockName: Corridor_toilet_GoRoom
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 945778268}
+  - {fileID: 945778267}
+  - {fileID: 945778266}
+  suppressAllAutoSelections: 0
+--- !u!114 &945778252
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 668
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &945778253
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 687
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.25
+  durationOLD: 0
+--- !u!114 &945778254
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c784b19efbe8424fa879e0d6d883281, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 686
+  indentLevel: 0
+  loadingImage: {fileID: 0}
+--- !u!114 &945778255
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7026a0b1ea104ec0af471324ee3daea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 685
+  indentLevel: 0
+  _tweenName:
+    stringRef: {fileID: 0}
+    stringVal: Seagull
+  tweenNameOLD: 
+--- !u!114 &945778256
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 684
+  indentLevel: 0
+  commenterName: "\u0421\u044A\u0435\u043B\u0438 \u043A\u043E\u043C\u043D\u0430\u0442\u0430-\u043A\u043E\u0440\u0438\u0434\u043E\u0440"
+  commentText: 
+--- !u!114 &945778257
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 683
+  indentLevel: 0
+  storyText: "\u0422\u0435\u0431\u0435 \u043A\u043E\u043D\u0435\u0446!"
+  description: 
+  character: {fileID: 1190914530}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &945778258
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 598f181ee459641a9b0a5849fbc3240c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 682
+  indentLevel: 0
+  _targetObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 804889678}
+  _tweenName:
+    stringRef: {fileID: 0}
+    stringVal: 
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.01
+  easeType: 2
+  loopType: 2
+  stopPreviousTweens: 1
+  waitUntilFinished: 0
+  targetObjectOLD: {fileID: 0}
+  tweenNameOLD: 
+  durationOLD: 0
+  _offset:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0.3, y: 0, z: 0}
+  space: 1
+  offsetOLD: {x: 0, y: 0, z: 0}
+--- !u!114 &945778259
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 681
+  indentLevel: 0
+  animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 804889680}
+  stateName:
+    stringRef: {fileID: 0}
+    stringVal: Toilet_GoRoom_Die
+  layer:
+    integerRef: {fileID: 0}
+    integerVal: -1
+  time:
+    floatRef: {fileID: 0}
+    floatVal: 0
+--- !u!114 &945778260
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 680
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 473bea895c5d0684fabaf3702136bdd5, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &945778261
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 679
+  indentLevel: 0
+  text: "\u041D\u0430\u0437\u0430\u0434"
+  description: 
+  targetBlock: {fileID: 945778271}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 2063930150}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &945778262
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 678
+  indentLevel: 0
+  text: "\u041F\u0440\u043E\u0439\u0442\u0438 \u0434\u0430\u043B\u044C\u0448\u0435"
+  description: 
+  targetBlock: {fileID: 945778269}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 2063930150}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &945778263
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 677
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 945778214}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &945778264
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 676
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1.1
+  durationOLD: 0
+--- !u!114 &945778265
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 675
+  indentLevel: 0
+  animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 804889680}
+  stateName:
+    stringRef: {fileID: 0}
+    stringVal: Toilet_GoRoom_2
+  layer:
+    integerRef: {fileID: 0}
+    integerVal: -1
+  time:
+    floatRef: {fileID: 0}
+    floatVal: 0
+--- !u!114 &945778266
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 674
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 945778270}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &945778267
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 673
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1.1
+  durationOLD: 0
+--- !u!114 &945778268
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5316d953c7abe498799575550c973535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 672
+  indentLevel: 0
+  animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 804889680}
+  stateName:
+    stringRef: {fileID: 0}
+    stringVal: Toilet_GoRoom
+  layer:
+    integerRef: {fileID: 0}
+    integerVal: -1
+  time:
+    floatRef: {fileID: 0}
+    floatVal: 0
+--- !u!114 &945778269
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 838.2966
+    y: 713.92865
+    width: 228.75005
+    height: 40
+  tint: {r: 0.21960784, g: 0.32156864, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 671
+  blockName: TheEnd_Corridor_toiletRoomEat
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 945778259}
+  - {fileID: 945778253}
+  - {fileID: 945778260}
+  - {fileID: 945778258}
+  - {fileID: 945778257}
+  - {fileID: 945778256}
+  - {fileID: 945778255}
+  - {fileID: 945778254}
+  suppressAllAutoSelections: 0
+--- !u!114 &945778270
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 597.6715
+    y: 713.92865
+    width: 210.00005
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 670
+  blockName: Corridor_toilet_RoomChoose
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 945778262}
+  - {fileID: 945778261}
+  suppressAllAutoSelections: 0
+--- !u!114 &945778271
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945777705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 367.3692
+    y: 755.8856
+    width: 195.00005
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 669
+  blockName: Corridor_toilet_BackRoom
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 945778265}
+  - {fileID: 945778264}
+  - {fileID: 945778263}
+  suppressAllAutoSelections: 0
 --- !u!1 &963092556
 GameObject:
   m_ObjectHideFlags: 0
@@ -30640,6 +31539,7 @@ GameObject:
   - component: {fileID: 1857715367}
   - component: {fileID: 1857715374}
   - component: {fileID: 1857715375}
+  - component: {fileID: 1857715376}
   m_Layer: 0
   m_Name: Flowchart_Start
   m_TagString: Untagged
@@ -30742,6 +31642,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1857715376}
   - {fileID: 1857715359}
   - {fileID: 1857715323}
   - {fileID: 1857715353}
@@ -30770,8 +31671,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1857715324}
+  selectedCommands:
+  - {fileID: 1857715376}
   variables:
   - {fileID: 1857715320}
   - {fileID: 1857715312}
@@ -33489,6 +34392,23 @@ MonoBehaviour:
   itemId: 491
   indentLevel: 0
   loadingImage: {fileID: 0}
+--- !u!114 &1857715376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857715307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 666
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 9353e4347450325498ed4dc9aa10ff97, type: 3}
+  volume: 0.08
+  loop: 1
 --- !u!1 &1861493230
 GameObject:
   m_ObjectHideFlags: 0
