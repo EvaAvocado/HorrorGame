@@ -52,6 +52,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &-7798735679053015516
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toilet_GoOut
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 40809ce3fb2282d40b7b868d5d6fb2b2, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &-7507462295193269110
 AnimatorState:
   serializedVersion: 6
@@ -99,6 +125,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 46bdf982a8e9d7247a0324b2e0677650, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-7016448269175758577
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toilet_Idle_2
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: b44ac2050cf73d54b9e978f4564ba0ad, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -208,6 +260,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &-5870868856436594680
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toilet_Idle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 1a90ae6950cb0c3468e32311eb6a62f2, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &-5208733626049903680
 AnimatorState:
   serializedVersion: 6
@@ -229,6 +307,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 49b77f76ce5152a4fb79b34257bf0937, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-5099594496946646727
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toilet_GoKitchen
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: fd670f66694627b4ca2edf5698c7a04a, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -260,6 +364,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &-4621860866374839978
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toilet_GoKitchen_KillGirl
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 18da2dca3376421458ab82d724cbf6fa, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &-4259632537095189014
 AnimatorState:
   serializedVersion: 6
@@ -281,6 +411,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 019dbb029d071aa44878018f9eec6ee7, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-3934156874218852882
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toilet_GoRoom_2
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: c9c9d7f15a1d6b24aba7c4c1f949e5ab, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -442,6 +598,58 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &-2588804612907538016
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toilet_GoKitchen_2
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 67ec8905d629adf40b8576cda3218796, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-2214699932671407632
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toilet_GoTo
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 190bd9f41b49d5046a54cd7698b22477, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &-2120678353092161379
 AnimatorState:
   serializedVersion: 6
@@ -531,125 +739,161 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -1184031263057177780}
-    m_Position: {x: 220, y: -20, z: 0}
+    m_Position: {x: 10, y: -340, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4259632537095189014}
-    m_Position: {x: 235, y: 65, z: 0}
+    m_Position: {x: 10, y: -290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6038042377310446361}
-    m_Position: {x: 270, y: 130, z: 0}
+    m_Position: {x: 10, y: -190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7882847095475302084}
-    m_Position: {x: 305, y: 195, z: 0}
+    m_Position: {x: 10, y: -140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1153589260636868635}
-    m_Position: {x: 340, y: 260, z: 0}
+    m_Position: {x: 10, y: -90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2120678353092161379}
-    m_Position: {x: 375, y: 325, z: 0}
+    m_Position: {x: 10, y: -40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2960258511718333389}
-    m_Position: {x: 410, y: 390, z: 0}
+    m_Position: {x: 640, y: -40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8897650730199081754}
-    m_Position: {x: 445, y: 455, z: 0}
+    m_Position: {x: 430, y: -40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6379651120961448088}
-    m_Position: {x: 30, y: 180, z: 0}
+    m_Position: {x: -320, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3724183867149976385}
-    m_Position: {x: 65, y: 245, z: 0}
+    m_Position: {x: 220, y: -340, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6067100494488772193}
-    m_Position: {x: 100, y: 310, z: 0}
+    m_Position: {x: 220, y: -40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2180181471090091670}
-    m_Position: {x: 135, y: 375, z: 0}
+    m_Position: {x: 220, y: -290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2094932163430258526}
-    m_Position: {x: 170, y: 440, z: 0}
+    m_Position: {x: 220, y: -90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6634332024834440386}
-    m_Position: {x: 205, y: 505, z: 0}
+    m_Position: {x: 10, y: -240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6696520077091822021}
-    m_Position: {x: 240, y: 570, z: 0}
+    m_Position: {x: 220, y: -140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8844271999255680147}
-    m_Position: {x: 275, y: 635, z: 0}
+    m_Position: {x: 1290, y: -340, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2888851516194367584}
-    m_Position: {x: 310, y: 700, z: 0}
+    m_Position: {x: 900, y: -340, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 9071092078539541446}
-    m_Position: {x: 345, y: 765, z: 0}
+    m_Position: {x: 900, y: -290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2794911985963940953}
-    m_Position: {x: 380, y: 830, z: 0}
+    m_Position: {x: 900, y: -140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5362614748693328780}
-    m_Position: {x: 415, y: 895, z: 0}
+    m_Position: {x: 900, y: -190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3302844342339697593}
-    m_Position: {x: 10.30188, y: 351.72565, z: 0}
+    m_Position: {x: 900, y: -240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3752237472807774948}
-    m_Position: {x: 45.30188, y: 416.72565, z: 0}
+    m_Position: {x: 20, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7507462295193269110}
-    m_Position: {x: 80.30188, y: 481.72565, z: 0}
+    m_Position: {x: 440, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2906125958998486925}
-    m_Position: {x: 115.30188, y: 546.72565, z: 0}
+    m_Position: {x: 230, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4667196341342802752}
-    m_Position: {x: 150.30188, y: 611.72565, z: 0}
+    m_Position: {x: 650, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1452314251312074805}
-    m_Position: {x: 185.30188, y: 676.72565, z: 0}
+    m_Position: {x: 20, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7367425142114015388}
-    m_Position: {x: 220.30188, y: 741.72565, z: 0}
+    m_Position: {x: 230, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3361717315017058730}
-    m_Position: {x: 255.30188, y: 806.72565, z: 0}
+    m_Position: {x: 440, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3212969355427405621}
-    m_Position: {x: 290.30188, y: 871.72565, z: 0}
+    m_Position: {x: 650, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5208733626049903680}
-    m_Position: {x: 325.30188, y: 936.72565, z: 0}
+    m_Position: {x: 20, y: 290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6611109601117092326}
-    m_Position: {x: 360.30188, y: 1001.72565, z: 0}
+    m_Position: {x: 440, y: 290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -851500520256253044}
-    m_Position: {x: 395.30188, y: 1066.7256, z: 0}
+    m_Position: {x: 230, y: 290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4200896020496261591}
-    m_Position: {x: 430.30188, y: 1131.7256, z: 0}
+    m_Position: {x: 650, y: 290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8924449617901597210}
-    m_Position: {x: 465.30188, y: 1196.7256, z: 0}
+    m_Position: {x: 1290, y: -240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2710600661784165024}
-    m_Position: {x: 500.30188, y: 1261.7256, z: 0}
+    m_Position: {x: 1710, y: -240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 486869094596209396}
-    m_Position: {x: 535.3019, y: 1326.7256, z: 0}
+    m_Position: {x: 1920, y: -240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 220111932322523971}
-    m_Position: {x: 570.3019, y: 1391.7256, z: 0}
+    m_Position: {x: 1500, y: -240, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 8112249858476871946}
-    m_Position: {x: 605.3019, y: 1456.7256, z: 0}
+    m_State: {fileID: 1154771327176506621}
+    m_Position: {x: 1290, y: -190, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 4694290239358994669}
+    m_Position: {x: 1500, y: -190, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -2214699932671407632}
+    m_Position: {x: 1290, y: -290, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -5870868856436594680}
+    m_Position: {x: 1710, y: -290, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -7798735679053015516}
+    m_Position: {x: 1500, y: -290, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -7016448269175758577}
+    m_Position: {x: 1920, y: -290, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 4335304421066040511}
+    m_Position: {x: 1290, y: -140, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -3934156874218852882}
+    m_Position: {x: 1500, y: -140, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 7703336997474449666}
+    m_Position: {x: 1710, y: -140, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -5099594496946646727}
+    m_Position: {x: 1290, y: -90, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -2588804612907538016}
+    m_Position: {x: 1500, y: -90, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -4621860866374839978}
+    m_Position: {x: 1710, y: -90, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 8643163156450399336}
+    m_Position: {x: 1710, y: -190, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: -100, y: 100, z: 0}
+  m_AnyStatePosition: {x: -180, y: 10, z: 0}
+  m_EntryPosition: {x: -280, y: 110, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -6379651120961448088}
@@ -800,6 +1044,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 66ff45738fb0b4c40a1f644174e8a05f, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &1154771327176506621
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DoorDoor
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: f06b6b4cbe8de2a4cb40e0a4def5865c, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -961,6 +1231,58 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &4335304421066040511
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toilet_GoRoom
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: f6ee5f7e87dbd9b419e87f75a3a960ca, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &4694290239358994669
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DoorDoor_2
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 95b4f3d75a28b6a4f8a5f12c10ebae15, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &5362614748693328780
 AnimatorState:
   serializedVersion: 6
@@ -1039,6 +1361,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &7703336997474449666
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toilet_GoRoom_Die
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 1af21ad6f1bf3574e87bec976d85a9b9, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &7882847095475302084
 AnimatorState:
   serializedVersion: 6
@@ -1065,14 +1413,14 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &8112249858476871946
+--- !u!1102 &8643163156450399336
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Corridor
+  m_Name: Toilet_GoDoor_GoodEnd
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -1085,7 +1433,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 65ca09ee3d320ae40b9384df142bfdf0, type: 2}
+  m_Motion: {fileID: 7400000, guid: c47d42cd60e65664892a01a62b249c5a, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
