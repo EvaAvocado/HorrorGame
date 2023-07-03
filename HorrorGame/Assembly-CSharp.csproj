@@ -47,9 +47,11 @@
      <Folder Include="Assets\Animations\Park" />
      <Folder Include="Assets\Sprites\UI\RedBlack" />
      <Folder Include="Assets\Sprites" />
+     <Folder Include="Assets\Animations\HideAndSeek" />
      <Folder Include="Assets\Audios" />
      <Folder Include="Assets\Animations" />
      <Folder Include="Assets\Sprites\UI" />
+     <Folder Include="Assets\Animations\HideAndSeek\Corridor" />
      <Folder Include="Assets\Animations\Home" />
      <Folder Include="Assets\Sprites\UI\Icons" />
      <Folder Include="Assets\Images" />
