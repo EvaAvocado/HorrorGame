@@ -12,10 +12,16 @@ public class CatButton : MonoBehaviour
         LoadVariable();
     }
 
+    public void ResetVariable()
+    {
+        PlayerPrefs.SetInt(_name, 0);
+        SaveSettingsFalse();
+    }
+
     public void LoadVariable()
     {
         // Test
-        // PlayerPrefs.SetInt(_name, 0);
+        // ResetVariable();
         // Test
         
         if (PlayerPrefs.HasKey(_name))
@@ -31,13 +37,18 @@ public class CatButton : MonoBehaviour
             _particle.Play();
             Print();
             isActivated = true;
-            SaveSettings();
+            SaveSettingsTrue();
         }
     }
 
-    private void SaveSettings()
+    private void SaveSettingsTrue()
     {
         PlayerPrefs.SetInt(_name, 1);
+    }
+    
+    private void SaveSettingsFalse()
+    {
+        PlayerPrefs.SetInt(_name, 0);
     }
 
     public void Print()

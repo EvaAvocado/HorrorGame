@@ -32,6 +32,14 @@ public class CatsCounter : MonoBehaviour
         }
     }
 
+    public void ResetValues()
+    {
+        foreach (var catButton in _catsList)
+        {
+            catButton.ResetVariable();
+        }
+    }
+
     private void OpenSecretEnd()
     {
         _flowchartEnds.ExecuteBlock("SetValuesSecretEndTrue");
