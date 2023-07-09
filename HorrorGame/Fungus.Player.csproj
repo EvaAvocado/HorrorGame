@@ -260,9 +260,9 @@
      <Compile Include="Assets\Fungus\Scripts\Components\Draggable2D.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\Say.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\Condition.cs" />
-     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Interop\UserDataMemberType.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\Collection\CollectionCommandShuffle.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\Math\Abs.cs" />
+     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Interop\UserDataMemberType.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\LuaCondition.cs" />
      <Compile Include="Assets\Fungus\Scripts\VariableTypes\Collection\StringCollection.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Interop\Attributes\MoonSharpUserDataMetamethodAttribute.cs" />
