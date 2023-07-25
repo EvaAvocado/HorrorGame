@@ -15,29 +15,39 @@ public class Ads : MonoBehaviour
 
     private void OnEnable()
     {
+        GP_Game.OnPause += Pause;
+        GP_Game.OnResume += Resume;
         GP_Ads.OnAdsStart += OnAdsStart;
         GP_Ads.OnAdsClose += OnAdsClose;
     }
 
     private void OnDisable()
     {
+        GP_Game.OnPause -= Pause;
+        GP_Game.OnResume -= Resume;
         GP_Ads.OnAdsStart -= OnAdsStart;
         GP_Ads.OnAdsClose -= OnAdsClose;
     }
     
     private void Pause() => _flowchartSettings.ExecuteBlock("SetVolumeMinIn0Sec");
-    private void Resume() => _flowchartSettings.ExecuteBlock("SetVolumeMaxIn0Sec");
+
+    private void Resume()
+    {
+        _flowchartSettings.ExecuteBlock(_flowchartSettings.GetBooleanVariable("AudioOn")
+            ? "SetVolumeMaxIn0Sec"
+            : "SetVolumeMinIn0Sec");
+    }
 
     public void ShowFullscreen() => GP_Ads.ShowFullscreen(OnFullscreenStart, OnFullscreenClose);
 
-    // Отключить музяо
+    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
     private void OnAdsStart()
     {
         //_flowchartSettings.ExecuteBlock("SetVolumeMinIn0Sec");
         Debug.Log("ON ADS: START");
     }
 
-    // Включить музяо
+    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
     private void OnAdsClose(bool success)
     {
         //_flowchartSettings.ExecuteBlock("SetVolumeMaxIn0Sec");
