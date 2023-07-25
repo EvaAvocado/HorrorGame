@@ -6,6 +6,7 @@ using UnityEngine;
 public class Ads : MonoBehaviour
 {
     [SerializeField] private Flowchart _flowchartEpisodes;
+    [SerializeField] private Flowchart _flowchartSettings;
 
     private void Start()
     {
@@ -23,14 +24,25 @@ public class Ads : MonoBehaviour
         GP_Ads.OnAdsStart -= OnAdsStart;
         GP_Ads.OnAdsClose -= OnAdsClose;
     }
+    
+    private void Pause() => _flowchartSettings.ExecuteBlock("SetVolumeMinIn0Sec");
+    private void Resume() => _flowchartSettings.ExecuteBlock("SetVolumeMaxIn0Sec");
 
     public void ShowFullscreen() => GP_Ads.ShowFullscreen(OnFullscreenStart, OnFullscreenClose);
 
     // ќтключить муз€о
-    private void OnAdsStart() => Debug.Log("ON ADS: START");
-    
+    private void OnAdsStart()
+    {
+        //_flowchartSettings.ExecuteBlock("SetVolumeMinIn0Sec");
+        Debug.Log("ON ADS: START");
+    }
+
     // ¬ключить муз€о
-    private void OnAdsClose(bool success) => Debug.Log("ON ADS: CLOSE");
+    private void OnAdsClose(bool success)
+    {
+        //_flowchartSettings.ExecuteBlock("SetVolumeMaxIn0Sec");
+        Debug.Log("ON ADS: CLOSE");
+    }
 
     private void OnFullscreenStart() => Debug.Log("ON FULLSCREEN START");
     private void OnFullscreenClose(bool success) => Debug.Log("ON FULLSCREEN CLOSE");

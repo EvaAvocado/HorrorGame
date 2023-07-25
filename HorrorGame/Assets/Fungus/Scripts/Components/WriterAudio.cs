@@ -1,8 +1,10 @@
 // This code is part of the Fungus library (https://github.com/snozbot/fungus)
 // It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)
 
-﻿using UnityEngine;
+using System;
+using UnityEngine;
 using System.Collections.Generic;
+using Random = UnityEngine.Random;
 
 namespace Fungus
 {
@@ -22,6 +24,9 @@ namespace Fungus
     /// </summary>
     public class WriterAudio : MonoBehaviour, IWriterListener
     {
+        [Tooltip("Settings Flowchart")]
+        [SerializeField] protected Flowchart flowchartSettings;
+        
         [Tooltip("Volume level of writing sound effects")]
         [Range(0,1)]
         [SerializeField] protected float volume = 1f;
@@ -76,8 +81,18 @@ namespace Fungus
             audioMode = mode;
         }
 
+        protected virtual void OnEnable()
+        {
+            volume = flowchartSettings.GetBooleanVariable("AudioOn") ? 1 : 0;
+            //print(volume);
+        }
+
         protected virtual void Awake()
         {
+            flowchartSettings = GameObject.FindGameObjectWithTag("SettingsFlowchart").GetComponent<Flowchart>();
+            volume = flowchartSettings.GetBooleanVariable("AudioOn") ? 1 : 0;
+            //print(volume);
+
             // Need to do this in Awake rather than Start due to init order issues
             if (targetAudioSource == null)
             {

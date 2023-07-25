@@ -10,6 +10,7 @@ namespace Fungus.EditorUtils
     public class WriterAudioEditor : Editor
     {
         protected SerializedProperty volumeProp;
+        protected SerializedProperty flowchartSettingsProp;
         protected SerializedProperty loopProp;
         protected SerializedProperty targetAudioSourceProp;
         protected SerializedProperty audioModeProp;
@@ -20,6 +21,7 @@ namespace Fungus.EditorUtils
         protected virtual void OnEnable()
         {
             volumeProp = serializedObject.FindProperty("volume");
+            flowchartSettingsProp = serializedObject.FindProperty("flowchartSettings");
             loopProp = serializedObject.FindProperty("loop");
             targetAudioSourceProp = serializedObject.FindProperty("targetAudioSource");
             inputSoundProp = serializedObject.FindProperty("inputSound");
@@ -33,6 +35,7 @@ namespace Fungus.EditorUtils
             serializedObject.Update();
 
             EditorGUILayout.PropertyField(volumeProp);
+            EditorGUILayout.PropertyField(flowchartSettingsProp);
             EditorGUILayout.PropertyField(loopProp);
             EditorGUILayout.PropertyField(targetAudioSourceProp);
             EditorGUILayout.PropertyField(inputSoundProp);

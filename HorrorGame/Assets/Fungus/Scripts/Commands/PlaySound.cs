@@ -1,6 +1,7 @@
 // This code is part of the Fungus library (https://github.com/snozbot/fungus)
 // It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)
 
+using System;
 using UnityEngine;
 
 namespace Fungus
@@ -14,6 +15,9 @@ namespace Fungus
     [AddComponentMenu("")]
     public class PlaySound : Command
     {
+        [Tooltip("Settings Flowchart")]
+        [SerializeField] protected Flowchart flowchartSettings;
+        
         [Tooltip("Sound effect clip to play")]
         [SerializeField] protected AudioClip soundClip;
 
@@ -24,6 +28,11 @@ namespace Fungus
         [Tooltip("Wait until the sound has finished playing before continuing execution.")]
         [SerializeField] protected bool waitUntilFinished;
 
+        private void Awake()
+        {
+            flowchartSettings = GameObject.FindGameObjectWithTag("SettingsFlowchart").GetComponent<Flowchart>();
+        }
+
         protected virtual void DoWait()
         {
             Continue();
@@ -33,6 +42,9 @@ namespace Fungus
 
         public override void OnEnter()
         {
+            volume = flowchartSettings.GetBooleanVariable("AudioOn") ? 1 : 0;
+            //print("!" + volume);
+            
             if (soundClip == null)
             {
                 Continue();
