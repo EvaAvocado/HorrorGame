@@ -96,8 +96,8 @@
      <Compile Include="Assets\Fungus\Scripts\Interfaces\IWriterListener.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\DataTypes\WellKnownSymbols.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\LeanTween\LTSeq.cs" />
-     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Debugger\DebuggerLogic\MoonSharpDebugSession.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\CoreLib\StringModule.cs" />
+     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Debugger\DebuggerLogic\MoonSharpDebugSession.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Interop\Attributes\MoonSharpPropertyAttribute.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Execution\VM\OpCode.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Interop\StandardDescriptors\MemberDescriptors\ArrayMemberDescriptor.cs" />
@@ -237,6 +237,7 @@
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Execution\VM\Processor\Processor_Debugger.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Debugger\DebuggerLogic\EmptyDebugSession.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\DestroyOnLoad.cs" />
+     <Compile Include="Assets\Fungus\Scripts\AudioYB.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\Vector3\Vector3Fields.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\DataTypes\Closure.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\Input\GetMousePosition.cs" />
@@ -376,9 +377,9 @@
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Execution\Scopes\RuntimeScopeBlock.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Execution\VM\ByteCode.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\ShakeRotation.cs" />
-     <Compile Include="Assets\Fungus\Scripts\Signals\FungusActiveSignals.cs" />
      <Compile Include="Assets\Fungus\Scripts\Interfaces\ICollectionCompatible.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Errors\ScriptRuntimeException.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Signals\FungusActiveSignals.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\Property\TransformProperty.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Platforms\LimitedPlatformAccessor.cs" />
      <Compile Include="Assets\Fungus\Scripts\Interfaces\IWriterTextDestination.cs" />
@@ -582,6 +583,7 @@
      <Compile Include="Assets\Fungus\Scripts\Commands\SetClickable2D.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\Math\Exp.cs" />
      <Compile Include="Assets\Fungus\Scripts\Commands\SetSpriteOrder.cs" />
+     <Compile Include="Assets\Fungus\Scripts\AudioStreamCash.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Tree\Loop.cs" />
      <Compile Include="Assets\Fungus\Scripts\Components\EventHandler.cs" />
      <Compile Include="Assets\Fungus\Scripts\Utils\PortraitUtils.cs" />

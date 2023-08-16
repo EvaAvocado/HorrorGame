@@ -43,7 +43,6 @@
   <ItemGroup>
      <Compile Include="Assets\GamePush\Utilities\GP_Component.cs" />
      <Compile Include="Assets\GamePush\Utilities\GP_ConsoleController.cs" />
-     <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\GamePush\Modules\GP_Fullscreen.cs" />
      <Compile Include="Assets\GamePush\Modules\GP_Socials.cs" />
      <Compile Include="Assets\GamePush\Modules\GP_SDK.cs" />
@@ -84,6 +83,7 @@
      <Folder Include="Assets\Sprites" />
      <Folder Include="Assets\Animations\HideAndSeek" />
      <Folder Include="Assets\Audios" />
+     <Folder Include="Assets\StreamingAssets" />
      <Folder Include="Assets\Animations" />
      <Folder Include="Assets\Sprites\UI" />
      <Folder Include="Assets\WebGLTemplates" />
@@ -785,6 +785,9 @@
      <Reference Include="Unity.2D.Psdimporter.Editor">
      <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
@@ -800,11 +803,11 @@
      <Reference Include="UnityEngine.UI">
      <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.2D.Tilemap.Extras.Editor">
      <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -817,6 +820,9 @@
      </Reference>
      <Reference Include="Unity.Burst">
      <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -848,12 +854,6 @@
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Postprocessing.Editor">
-     <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Runtime">
-     <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Fungus.csproj">
@@ -872,13 +872,13 @@
       <Project>{85006649-53be-f69a-e5fe-5b1c414a3858}</Project>
       <Name>Fungus.FungusLuaJSONCheckerEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="FungusExamples.csproj">
-      <Project>{3d84b6fe-e672-fd52-c0fd-9c257900396b}</Project>
-      <Name>FungusExamples</Name>
-    </ProjectReference>
     <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
       <Project>{4514ded4-7b9d-fcc9-ee79-0ae3af1ac433}</Project>
       <Name>Fungus.LineEndingsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FungusExamples.csproj">
+      <Project>{3d84b6fe-e672-fd52-c0fd-9c257900396b}</Project>
+      <Name>FungusExamples</Name>
     </ProjectReference>
     <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
       <Project>{179ca05e-39c3-5c14-5783-6763259acccf}</Project>

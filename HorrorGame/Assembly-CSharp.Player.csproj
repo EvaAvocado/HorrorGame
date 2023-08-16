@@ -43,7 +43,6 @@
   <ItemGroup>
      <Compile Include="Assets\GamePush\Utilities\GP_Component.cs" />
      <Compile Include="Assets\GamePush\Utilities\GP_ConsoleController.cs" />
-     <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\GamePush\Modules\GP_Fullscreen.cs" />
      <Compile Include="Assets\GamePush\Modules\GP_Socials.cs" />
      <Compile Include="Assets\GamePush\Modules\GP_SDK.cs" />
@@ -683,6 +682,9 @@
      <Reference Include="Unity.Burst">
      <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.2D.Animation.Runtime">
      <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
      </Reference>
@@ -694,9 +696,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Runtime">
-     <HintPath>D:\My Games\HorrorGame\HorrorGame\HorrorGame\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
